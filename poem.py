@@ -8,3 +8,4 @@ def poem():
         m = randint(3,6)
         sentence = sample(words, m)
         print(" ".join(sentence))
+poem()
